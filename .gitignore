@@ -24,16 +24,16 @@ Admin/server/.env
 Admin/server/uploads
 
 #Admin client dir
-Admin/client/node_modules
-Admin/client/.pnp
-Admin/client/.pnp.js
-Admin/client/coverage
-Admin/client/build
-Admin/client/.DS_Store
-Admin/client/.env.local
-Admin/client/.env.development.local
-Admin/client/.env.test.local
-Admin/client/.env.production.local
-Admin/client/npm-debug.log*
-Admin/client/yarn-debug.log*
-Admin/client/yarn-error.log*
+Admin/frontend/node_modules
+Admin/frontend/.pnp
+Admin/frontend/.pnp.js
+Admin/frontend/coverage
+Admin/frontend/build
+Admin/frontend/.DS_Store
+Admin/frontend/.env.local
+Admin/frontend/.env.development.local
+Admin/frontend/.env.test.local
+Admin/frontend/.env.production.local
+Admin/frontend/npm-debug.log*
+Admin/frontend/yarn-debug.log*
+Admin/frontend/yarn-error.log*
