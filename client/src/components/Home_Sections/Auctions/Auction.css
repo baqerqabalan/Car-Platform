@@ -1,0 +1,66 @@
+.card-container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #00008b;
+  }
+  
+  .card-container .swiper-slide {
+    display: flex;
+    justify-content: center; /* Center the card horizontally */
+    align-items: center; /* Center the card vertically (if needed) */
+  }
+  
+  .card {
+    max-width: 345px; /* Set a max-width for the card */
+    width: 100%; /* Ensure the card takes the full width of the slide */
+    margin: 0 auto; /* Center the card */
+  }
+
+  .slider-control {
+    position: relative;
+  }
+  
+  .bid-btn {
+    background-color: #00008b !important; /* Button background color */
+    color: #fff !important; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transition for box-shadow and transform */
+  }
+  
+  .bid-btn:hover {
+    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5); /* Box shadow on hover */
+    transform: translateY(-2px); /* Slight upward movement on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%; /* Allow the card to take full width on smaller screens */
+    }
+  
+    .bid-btn {
+      padding: 8px 16px; /* Adjust padding for smaller screens */
+      margin-right: 5%; /* Reduce right margin */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card-container {
+      padding: 10px; /* Reduce padding on smaller devices */
+    }
+  
+    .bid-btn {
+      width: 100%; /* Make button full width on very small screens */
+      margin-right: 0; /* Remove right margin */
+    }
+  }
+
+.title{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}

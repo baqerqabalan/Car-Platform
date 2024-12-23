@@ -1,0 +1,58 @@
+.nav {
+  background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+/* Logo container */
+.logo-container {
+  display: flex;
+  align-items: center; /* Vertically center the logo */
+  justify-content: center; /* Horizontally center the logo */
+  width: 10%; /* Adjusts the logo container width */
+}
+
+/* Logo image */
+.logo {
+  max-width: 100%; /* Ensure the logo fits within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Button styles */
+.btn {
+  margin-left: 5% !important;
+  border-radius: 5% !important;
+  padding: 10px 20px; /* Ensures the button has appropriate padding */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Changes cursor on hover */
+}
+
+/* Responsive adjustments for screens smaller than 960px */
+@media (max-width: 960px) {
+  .logo-container {
+    display: none; /* Hides logo container on smaller screens */
+  }
+
+  /* Adjust button on smaller screens */
+  .btn {
+    margin-left: 0 !important;
+    width: 100%; /* Make the button take full width */
+    text-align: center;
+  }
+}
+
+/* For screens smaller than 600px (mobile devices) */
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-aligns the items */
+  }
+
+  .btn {
+    width: auto;
+    margin-left: 10px; /* Adds space between buttons if there are multiple */
+  }
+}
