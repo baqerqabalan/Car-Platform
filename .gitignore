@@ -1,0 +1,39 @@
+#server dir
+server/node_modules
+server/.env
+server/uploads
+
+#client dir
+client/node_modules
+client/.pnp
+client/.pnp.js
+client/coverage
+client/build
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+#Admin server dir
+Admin/server/node_modules
+Admin/server/.env
+Admin/server/uploads
+
+#Admin client dir
+Admin/client/node_modules
+Admin/client/.pnp
+Admin/client/.pnp.js
+Admin/client/coverage
+Admin/client/build
+Admin/client/.DS_Store
+Admin/client/.env.local
+Admin/client/.env.development.local
+Admin/client/.env.test.local
+Admin/client/.env.production.local
+Admin/client/npm-debug.log*
+Admin/client/yarn-debug.log*
+Admin/client/yarn-error.log*
